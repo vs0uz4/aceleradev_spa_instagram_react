@@ -1,0 +1,101 @@
+.post {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.post__header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.post__header .user {
+  display: flex;
+  align-items: center;
+}
+
+.post__header .user__thumb {
+  height: 40px;
+  margin-right: 8px;
+  border: 2px solid #FF991C;
+  width: 40px;
+}
+
+.follow-btn {
+  color: black;
+  font-weight: 600;
+  font-size: 1.2rem;
+
+  &:hover {
+    color: rgb(77, 77, 77);
+  }
+}
+
+.post__header .user__name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+
+  &:hover {
+    color: rgb(77, 77, 77);
+  }
+}
+
+.post__context {
+  font-size: 1.4rem;
+}
+
+.post__figure {
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.post__figure img {
+  width: 100%;
+}
+
+.post__controls {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4px 0;
+}
+
+.post__control {
+  color: black;
+  font-size: 2.4rem;
+  margin-right: 5px;
+  position: relative;
+}
+
+.fas.fa-heart {
+  color: rgb(202, 21, 85);
+}
+
+.post__status {
+  display: flex;
+  padding: 0;
+  line-height: 1.4em;
+
+  span {
+    color: black;
+  }
+}
+
+.post__status .user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.post__status .user span {
+  font-size: 1.2rem;
+}

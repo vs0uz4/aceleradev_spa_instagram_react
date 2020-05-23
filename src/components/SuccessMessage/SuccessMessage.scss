@@ -1,0 +1,35 @@
+.success-message {
+  align-items: center;
+  background-color: #73b976;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  left: 50%;
+  margin: auto;
+  max-width: 400px;
+  overflow: hidden;
+  padding: 20px;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 80%;
+  z-index: 2;
+
+  &__title {
+    font-size: 2.4rem;
+    line-height: 1;
+  }
+
+  &__content {
+    font-size: 1.4rem;
+    line-height: 1;
+
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+  }
+}

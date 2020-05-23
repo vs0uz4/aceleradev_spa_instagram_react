@@ -1,0 +1,64 @@
+.post__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding: 16px;
+
+  @media screen and (min-width: 728px) {
+    padding: 40px;
+  }
+
+  .post__form__wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media screen and (min-width: 728px) {
+      width: 80%;
+    }
+
+    button {
+      background: rgb(77, 77, 77);
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 0 auto;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+  }
+
+  label {
+    display: block;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  input {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(77, 77, 77);
+    color: black;
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 8px;
+    width: 100%;
+    transition: all ease-in-out .2s;
+
+    &::placeholder {
+      font-weight: normal;
+    }
+
+    &:focus {
+      border: 1px solid #F06B41;
+    }
+  }
+}

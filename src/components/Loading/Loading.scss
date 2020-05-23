@@ -1,0 +1,15 @@
+.loading {
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  width: 100px;
+  font-weight: bold;
+  font-size: 1.3rem;
+}

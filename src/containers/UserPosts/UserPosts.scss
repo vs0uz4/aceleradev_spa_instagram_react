@@ -1,0 +1,26 @@
+.user-posts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+
+  & .post {
+    margin: 6px;
+    width: calc((100% / 2) - 12px);
+  }
+}
+
+@media screen and (min-width: 728px) {
+  .user-posts {
+    padding: 20px 16px 40px;
+    justify-content: flex-start;
+
+    & .post {
+      width: calc((100% / 3) - 12px);
+    }
+  }
+}
